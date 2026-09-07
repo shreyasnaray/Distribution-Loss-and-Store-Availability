@@ -7,7 +7,7 @@ A consumer goods company wants to understand why sales declined across retailers
 Are sales declining because shoppers want the product less, or because the product is less available on shelf?
 The R code builds a retail availability diagnostic using weekly store-product data. It separates sales decline into distribution loss, stockouts, velocity changes, lost revenue, and competitor substitution risk. The analysis uses variables such as distribution_status, in_stock, units_sold, revenue, competitor_units, lost_distribution_flag, and out_of_stock_days from the constructed retail dataset.
 
-“Did sales decline because demand weakened, because the product lost distribution, because the product was out of stock, or because competitors captured the demand?”
+Did sales decline because demand weakened, because the product lost distribution, because the product was out of stock, or because competitors captured the demand?
 
 This distinction matters because each root cause leads to a different business action.
 Problem Type	What It Means	Business Response
